@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*core styles*/
+body {
+  background-color: #5cf;
+  font-family: Poppins, sans-serif;
+}
+input, textarea {
+  font-family: Poppins, sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+input, textarea, button, .msg {
+  border-radius: 8px;
+  display: block;
+}
+main {
+  padding: 20px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+/*other styles*/
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.msg {
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #fff;
+  box-shadow: 4px 3px 10px rgba(0,0,0,0.3);
+}
+.author {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.create-msg textarea, .create-msg input{
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 7px 10px;
+  border: 1px solid #999;
+  margin-bottom: 10px;
+}
+.create-msg #sendBtn {
+  border: none;
+  background-color: #5ac;
+  font-size: 18px;
+  color: #fff;
+  width: 200px;
+  padding: 8px;
+}
